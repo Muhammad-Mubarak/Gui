@@ -16,5 +16,12 @@ namespace departmental_store
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Dashboard newDashboard = new Dashboard();
+            this.Hide();
+            newDashboard.Show();
+        }
     }
 }

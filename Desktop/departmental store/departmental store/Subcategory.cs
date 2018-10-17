@@ -16,5 +16,19 @@ namespace departmental_store
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            category newCategory = new category();
+            newCategory.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            category newCategory = new category();
+            newCategory.Show();
+            this.Hide();
+        }
     }
 }

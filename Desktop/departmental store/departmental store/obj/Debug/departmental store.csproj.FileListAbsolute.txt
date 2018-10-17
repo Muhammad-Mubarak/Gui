@@ -9,3 +9,6 @@ E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\depart
 E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental store.exe
 E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental store.pdb
 E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental_store.Purchase_form.resources
+C:\Users\Muhammad Mubarak\Desktop\departmental store\departmental store\bin\Debug\departmental store.exe.config
+C:\Users\Muhammad Mubarak\Desktop\departmental store\departmental store\obj\Debug\departmental store.exe
+C:\Users\Muhammad Mubarak\Desktop\departmental store\departmental store\obj\Debug\departmental store.pdb
