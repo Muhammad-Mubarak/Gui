@@ -1,0 +1,11 @@
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\bin\Debug\departmental store.exe.config
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\bin\Debug\departmental store.exe
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\bin\Debug\departmental store.pdb
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental store.csprojResolveAssemblyReference.cache
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental_store.Dashboard.resources
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental_store.Form1.resources
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental_store.Properties.Resources.resources
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental store.csproj.GenerateResource.Cache
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental store.exe
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental store.pdb
+E:\BOOKS\Smester 5\SE Lab\departmental store\departmental store\obj\Debug\departmental_store.Purchase_form.resources
