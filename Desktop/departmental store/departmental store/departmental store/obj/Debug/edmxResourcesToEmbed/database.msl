@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Departmental_storeModelStoreContainer" CdmEntityContainer="Departmental_storeEntities1">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="Departmental_storeModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Invoice_Id" ColumnName="Invoice Id" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="Departmental_storeModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="Product_Id" ColumnName="Product Id" />
+          <ScalarProperty Name="Product_Code" ColumnName="Product Code" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Sold" ColumnName="Sold" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Refund_Products">
+      <EntityTypeMapping TypeName="Departmental_storeModel.Refund_Products">
+        <MappingFragment StoreEntitySet="Refund_Products">
+          <ScalarProperty Name="Refund_Id" ColumnName="Refund Id" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales_products">
+      <EntityTypeMapping TypeName="Departmental_storeModel.Sales_products">
+        <MappingFragment StoreEntitySet="Sales_products">
+          <ScalarProperty Name="Product_Id" ColumnName="Product Id" />
+          <ScalarProperty Name="Product_name" ColumnName="Product name" />
+          <ScalarProperty Name="Product_Amount" ColumnName="Product Amount" />
+          <ScalarProperty Name="Product_Code" ColumnName="Product Code" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="Product_Description" ColumnName="Product Description" />
+          <ScalarProperty Name="Product_Price" ColumnName="Product Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Product_Invoice" ColumnName="Product Invoice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Departmental_storeModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

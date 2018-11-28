@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Departmental_storeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Invoice_Id" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Amount" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Product_Id" />
+    </Key>
+    <Property Name="Product_Id" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Product_Code" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Product_Name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Unit" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Cost" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Price" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Quantity" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Sold" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Refund_Products">
+    <Key>
+      <PropertyRef Name="Refund_Id" />
+    </Key>
+    <Property Name="Refund_Id" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Product_Name" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Amount" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Quantity" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Sales_products">
+    <Key>
+      <PropertyRef Name="Product_Id" />
+    </Key>
+    <Property Name="Product_Id" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Product_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Product_Amount" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Product_Code" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Discount" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Product_Description" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Product_Price" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Quantity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Unit" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Product_Invoice" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Position" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="Departmental_storeEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Customers" EntityType="Self.Customer" />
+    <EntitySet Name="Products" EntityType="Self.Product" />
+    <EntitySet Name="Refund_Products" EntityType="Self.Refund_Products" />
+    <EntitySet Name="Sales_products" EntityType="Self.Sales_products" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+  </EntityContainer>
+</Schema>
