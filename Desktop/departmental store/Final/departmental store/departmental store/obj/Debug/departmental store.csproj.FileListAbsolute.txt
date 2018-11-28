@@ -38,3 +38,6 @@ C:\Users\Muhammad Mubarak\Desktop\Gui-master\Gui-master\Final\Final\departmental
 C:\Users\Muhammad Mubarak\Desktop\Gui-master\Gui-master\Final\Final\departmental store\departmental store\obj\Debug\departmental_store.add_category.resources
 C:\Users\Muhammad Mubarak\Desktop\Gui-master\Gui-master\Final\Final\departmental store\departmental store\obj\Debug\departmental_store.Subcategory.resources
 C:\Users\Muhammad Mubarak\Desktop\Gui-master\Gui-master\Final\Final\departmental store\departmental store\obj\Debug\departmental_store.brands.resources
+C:\Users\Muhammad Mubarak\Desktop\departmental store\Final\departmental store\departmental store\bin\Debug\departmental store.exe.config
+C:\Users\Muhammad Mubarak\Desktop\departmental store\Final\departmental store\departmental store\obj\Debug\departmental store.exe
+C:\Users\Muhammad Mubarak\Desktop\departmental store\Final\departmental store\departmental store\obj\Debug\departmental store.pdb
